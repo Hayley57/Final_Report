@@ -19,7 +19,14 @@ and assess the contributions of different writers and artists to the success of 
 `SpongeBob_report.Rmd`
 - loads table1 and barplot saved by the three `.R` scripts
 
+`renv.lock`
+- records a list of 1) what R version are using 2)every package used in the project, along with the versions of the package
 
-# **Makefile**: Automates the process of running the analysis and generating the output.
+
+# Generating the output.
+Run the following commands in terminal:
+- remove all generated files: `make clean` 
+- generates the final report in .html format: `make SpongeBob_report.html`
+- Running `make install` will restore the package library
 
 
