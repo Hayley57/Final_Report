@@ -14,3 +14,10 @@ make_Figure: clean_data make_Table
 .PHONY: clean
 clean:
 	rm -f Output/*.png && rm -f report.html && rm -f Derived_data/*
+
+.PHONY: install
+install:
+	Rscript -e "renv::restore(prompt = FALSE)"
+
+
+
