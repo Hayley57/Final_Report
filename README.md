@@ -30,3 +30,19 @@ Run the following commands in terminal:
 - Running `make install` will restore the package library
 
 
+# How to use Docker to make target
+Run the following commands in terminal:
+- Mac: `docker run "$(pwd)/report":/project/report project_image`
+- Windows: `docker run \"$(pwd)/report":/project/report project_image`
+
+
+
+
+
+
+
+
+
+
+
+
